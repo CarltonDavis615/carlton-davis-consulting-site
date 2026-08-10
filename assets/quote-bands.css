@@ -1,0 +1,5 @@
+/* Keep both home-page testimonial bands on the same dark-green treatment. */
+.quote-light {
+  background: var(--ink);
+  color: var(--paper);
+}

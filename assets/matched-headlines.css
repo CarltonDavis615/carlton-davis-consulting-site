@@ -1,0 +1,10 @@
+/* Keep the four specified headline treatments identical across both pages. */
+.hero h1,
+.insights h2,
+.page-hero h1,
+.cta h2 {
+  font-size: clamp(2rem, 3.9vw, 4.4rem) !important;
+  font-weight: 800 !important;
+  letter-spacing: .01em !important;
+  line-height: 1.1 !important;
+}

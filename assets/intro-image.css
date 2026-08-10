@@ -1,0 +1,22 @@
+/* Match the desktop image column to the full adjacent introduction content. */
+.intro {
+  align-items: stretch;
+}
+
+.intro > img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: 53% 78%;
+  background: var(--cream);
+}
+
+@media (max-width: 650px) {
+  .intro > img {
+    height: auto;
+    max-height: 460px;
+    aspect-ratio: 5 / 4;
+  }
+}

@@ -1,0 +1,91 @@
+/* Use one readable rhythm for the site's large headings. */
+.section {
+  padding-top: clamp(3.75rem, 7vw, 7rem);
+  padding-bottom: clamp(3.75rem, 7vw, 7rem);
+}
+
+.hero h1,
+.section h2,
+.section h3 {
+  letter-spacing: .01em;
+  line-height: 1.1;
+}
+
+.section h2 {
+  font-size: clamp(2rem, 3.9vw, 4.4rem);
+}
+
+/* Keep all home-page body copy on the same reading scale. */
+main p:not(.eyebrow),
+main .two-column li {
+  font-size: 1rem !important;
+  letter-spacing: normal !important;
+}
+
+/* Enforce the shared body-copy scale in the two primary home-page sections. */
+.intro p:not(.eyebrow),
+.services .service-list p:not(.eyebrow) {
+  font-size: 1rem !important;
+  letter-spacing: normal !important;
+}
+
+/* Give the home-page introduction heading a modest, deliberate separation. */
+.intro h2 {
+  margin-bottom: 1.25rem;
+}
+
+.bio h2 {
+  margin-bottom: 1.25rem;
+}
+
+.insights h2 {
+  font-size: clamp(2rem, 3.9vw, 4.4rem);
+  letter-spacing: .01em !important;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.insights .eyebrow {
+  font-size: 1.05rem;
+}
+
+.contact-section .eyebrow {
+  font-size: 1rem;
+}
+
+.contact-section h2,
+.bio h2,
+.media .section-heading h2 {
+  font-size: clamp(1.85rem, 3.6vw, 4.1rem);
+}
+
+/* Match the rendered label size in the split-layout Meet Carlton section. */
+.services .section-heading .eyebrow {
+  font-size: 1.05rem;
+}
+
+footer .footer-logo {
+  width: auto;
+  height: 2.2rem;
+  filter: invert(1);
+}
+
+.insights .gallery img {
+  height: 220px;
+}
+
+.insights .gallery .handshake-tile img {
+  object-position: center 20%;
+}
+
+.insights .gallery .handshake-tile {
+  height: 220px;
+  overflow: hidden;
+}
+
+.insights .gallery .handshake-tile img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.05);
+  transform-origin: center bottom;
+}

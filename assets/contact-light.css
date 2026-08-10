@@ -1,0 +1,15 @@
+/* Keep the booking form legible on the cream Get in Touch section. */
+.contact-section {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+.contact-section h2 {
+  margin-bottom: 1.25rem;
+}
+
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+  border-color: rgba(18, 38, 31, .45);
+  color: var(--ink);
+}

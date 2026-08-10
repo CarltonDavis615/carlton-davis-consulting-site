@@ -1,0 +1,50 @@
+/* Retain the public site's three-across media layout in the site's restrained palette. */
+.media {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+.media-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
+}
+
+.media-grid a {
+  background: transparent;
+  display: block;
+}
+
+.media-grid .media-image {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.media-grid .media-image img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+.media-grid .media-caption {
+  display: block;
+  margin: 0;
+  padding: .75rem 0 0 5%;
+  text-align: left;
+}
+
+.media-grid .media-caption strong {
+  font-weight: 800;
+}
+
+.media-grid b {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .media-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
