@@ -32,3 +32,7 @@ if (location.protocol === 'file:' || isGitHubPagesPreview) {
     if (href === '/') link.setAttribute('href', location.protocol === 'file:' ? (isWorkshopPage ? '../index.html' : 'index.html') : (isWorkshopPage ? '../' : './'));
   });
 }
+document.querySelectorAll('a[target="_blank"]').forEach((link) => {
+  link.removeAttribute('target');
+  link.removeAttribute('rel');
+});
