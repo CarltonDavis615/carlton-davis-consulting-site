@@ -5,9 +5,8 @@
 
 .intro > img {
   width: 100%;
-  height: auto;
+  height: clamp(350px, 30vw, 480px);
   max-height: none;
-  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: 62% center;
   background: var(--cream);
@@ -15,6 +14,6 @@
 
 @media (max-width: 650px) {
   .intro > img {
-    aspect-ratio: 1 / 1;
+    height: calc(100vw - 2.5rem);
   }
 }
