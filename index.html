@@ -33,6 +33,16 @@
     <link rel="stylesheet" href="assets/services-layout.css">
     <link rel="stylesheet" href="assets/meet-carlton-image.css">
     <link rel="stylesheet" href="assets/featured-media.css?v=3">
+    <style>
+      .client-feedback { background: var(--cream); }
+      .feedback-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+      .feedback-grid figure { display: flex; flex-direction: column; margin: 0; padding: clamp(1.5rem, 2.6vw, 2.4rem); background: var(--paper); border-top: 4px solid var(--lime); }
+      .feedback-grid blockquote { margin: 0; font: 1.08rem/1.55 var(--serif); }
+      .feedback-grid figcaption { display: grid; gap: .12rem; margin-top: auto; padding-top: 1.75rem; font-size: .86rem; }
+      .feedback-grid figcaption strong { font-size: .92rem; }
+      .feedback-grid figcaption span { color: var(--muted); }
+      @media (max-width: 900px) { .feedback-grid { grid-template-columns: 1fr; } }
+    </style>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"ProfessionalService","name":"Carlton Davis Consulting","url":"https://www.carltondavisconsulting.com/","description":"Practical AI workshops, training, speaking, and strategy for business leaders and teams.","areaServed":"Nashville, Tennessee and beyond","founder":{"@type":"Person","name":"Carlton Davis"},"sameAs":["https://www.linkedin.com/in/carltondavis/","https://www.google.com/maps/place/Carlton+Davis+Consulting/@36.1861885,-87.1147961,10z/data=!4m8!3m7!1s0x4f8a8050d8772bf9:0x6bc1f42861ff6720!8m2!3d36.1866404!4d-86.785147!9m1!1b1!16s%2Fg%2F11nhcmhpl7?entry=ttu"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI Training & Workshops"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Speaking & Events"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI Strategy & Advisory"}}]}}
     </script>
@@ -108,6 +118,28 @@
       </section>
 
       <section class="section media" aria-labelledby="media-heading"><div class="section-heading"><h2 id="media-heading">Featured Media</h2></div><div class="media-grid"><a href="https://html5-player.libsyn.com/embed/episode/id/41222910/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/000000/" target="_blank" rel="noopener"><span class="media-image"><img src="assets/podcast.png" width="1000" height="560" alt="SCORE Connect podcast artwork" loading="lazy"></span><span class="media-caption"><strong>Click Image to Listen:</strong> <i style="font-style: normal; font-weight: 400;">SCORE Connect Podcast</i></span></a><a href="https://cf.cdn.uplynk.com/ause1/slices/ba9/9ca48a3b38ef42538c6fe52a659b1e99/ba9e548a7441422fa6a9f8944dccf2cf/ba9e548a7441422fa6a9f8944dccf2cf_e.mp4" target="_blank" rel="noopener"><span class="media-image"><img src="assets/channel5.jpg" width="1000" height="560" alt="Nashville Channel 5 interview artwork" loading="lazy"></span><span class="media-caption"><strong>Click Image to Watch:</strong> <i style="font-style: normal; font-weight: 400;">Nashville Channel 5 Interview</i></span></a><a href="https://www.tennesseebroadband.com/2026/03/ai-workshop-aims-to-reduce-fears-and-promote-adoption/" target="_blank" rel="noopener"><span class="media-image"><img src="assets/workshop.jpg" width="800" height="600" alt="AI workshop participants learning practical business uses for AI" loading="lazy"></span><span class="media-caption"><strong>Click Image to Read:</strong> <i style="font-style: normal; font-weight: 400;">Tennessee Broadband Association AI Workshop Coverage</i></span></a></div></section>
+
+      <section class="section client-feedback" aria-labelledby="feedback-heading">
+        <div class="section-heading">
+          <p class="eyebrow">What People Are Saying</p>
+          <h2 id="feedback-heading">Client Feedback</h2>
+        </div>
+        <div class="feedback-grid">
+          <figure>
+            <blockquote>“I've had the pleasure of listening to and learning from several of Carlton's AI presentations. He takes the complexity out of the conversation and makes AI usage practical and approachable. After each event, I've felt more inspired to dig in and access the benefits.”</blockquote>
+            <figcaption><strong>Lisa O'Dell</strong><span>SCORE Nashville</span></figcaption>
+          </figure>
+          <figure>
+            <blockquote>“Carlton is exceptionally knowledgeable in using and developing with AI, but in a way that's practical with real business use cases. He understands where it has its limits and where it can be most impactful versus spending time talking about theory with jargon no one understands.”</blockquote>
+            <figcaption><strong>Krissy Heaven</strong><span>CEO, Blueprint Expansion</span></figcaption>
+          </figure>
+          <figure>
+            <blockquote>“Carlton's presentation on AI was concise, easy to understand and immediately gave me several ideas to try, both personally and professionally. He has an excellent presence and believability, which helped me not feel intimidated by the technology. Highly recommend!”</blockquote>
+            <figcaption><strong>Steve Minucci</strong><span>President, Symphony Six</span></figcaption>
+          </figure>
+        </div>
+        <a class="text-link" href="https://www.google.com/maps/place/Carlton+Davis+Consulting/@36.1861885,-87.1147961,10z/data=!4m8!3m7!1s0x4f8a8050d8772bf9:0x6bc1f42861ff6720!8m2!3d36.1866404!4d-86.785147!9m1!1b1!16s%2Fg%2F11nhcmhpl7?entry=ttu">Read more Google reviews <span aria-hidden="true">→</span></a>
+      </section>
 
       <section class="section insights section-dark"><div><p class="eyebrow">Stay connected</p><h2>See my latest AI insights on LinkedIn.</h2><a class="button button-light" href="https://www.linkedin.com/in/carltondavis/" target="_blank" rel="noopener">Connect on LinkedIn<span class="sr-only">, opens LinkedIn</span></a></div><div class="gallery"><img src="assets/chamber-ai-innovation-committee.png" width="2300" height="1616" alt="Carlton Davis with Nashville Chamber AI Innovation Committee members" loading="lazy"><img src="assets/client.jpg" width="1026" height="803" alt="Carlton Davis with an AI training client" loading="lazy"><span class="handshake-tile"><img src="assets/business-colleague-after-training.jpg" width="1738" height="2215" alt="Carlton Davis with a business colleague after a training session" loading="lazy"></span><img src="assets/group.jpg" width="3732" height="2799" alt="Carlton Davis with participants after an AI workshop" loading="lazy"></div></section>
     </main>
