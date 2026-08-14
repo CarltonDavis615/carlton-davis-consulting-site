@@ -37,6 +37,8 @@ a{color:var(--blue)}
 .narrow{max-width:760px}
 section{padding:88px 0}
 @media(max-width:767px){section{padding:56px 0}}
+#short{padding-top:64px}
+@media(max-width:767px){#short{padding-top:44px}}
 .band-gray{background:var(--gray)}
 .band-blue{background:var(--blue);color:var(--white)}
 
@@ -58,7 +60,7 @@ p{max-width:70ch}
 /* vertical only: the horizontal inset comes from .wrap so the hero lines up with every other section */
 .hero-inner{position:relative;z-index:1;width:100%;padding-top:clamp(56px,8vh,80px);padding-bottom:52px}
 .hero-copy{max-width:min(660px,100%);position:relative}
-.hero-brands{display:flex;gap:18px;align-items:center;margin-bottom:36px;color:var(--muted)}
+.hero-brands{display:flex;gap:18px;align-items:center;margin-bottom:44px;color:var(--muted)}
 .hero-brands img{height:46px;width:auto}
 .hero-copy::before{content:"";position:absolute;inset:-60px -80px -40px -80px;background:radial-gradient(ellipse at 35% 45%,rgba(255,255,255,.94) 45%,rgba(255,255,255,.62) 68%,rgba(255,255,255,0) 100%);z-index:-1}
 .hero h1{font-size:clamp(36px,5.2vw,56px);font-weight:800;line-height:1.08;letter-spacing:-.02em;margin:0 0 20px}
@@ -284,7 +286,7 @@ footer{background:var(--gray);padding:44px 0;border-top:1px solid var(--line)}
   <div class="wrap">
     <div class="exec-grid">
       <div class="reveal">
-        <p class="eyebrow">The short version</p>
+        <p class="eyebrow">Overview</p>
         <h2 id="short-h">A day of practical AI, shaped around business.</h2>
         <p class="lede">Most founders have already experimented with basic AI tools. What is missing is the bandwidth to test use cases, separate noise from value, and build real systems. That is what we accomplish in a single day.</p>
         <p>We move through four distinct blocks using a straightforward tag team approach. Carlton sets up the foundational strategy, including prompt design and practical AI governance. Jayson immediately demonstrates how to apply it, walking through active systems built on real business data. By the end of the day, you leave with a deeper working knowledge of AI and a clear path forward.</p>
@@ -578,6 +580,7 @@ var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   camera.lookAt(0, 0.1, 0);
   var group = new THREE.Group();
   scene.add(group);
+  group.position.x = mobile ? 0.65 : 1.25;
   group.rotation.x = 0.02;
 
   // soft round sprite for points
