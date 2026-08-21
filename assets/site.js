@@ -1,3 +1,14 @@
+// Google Analytics 4
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZFR45RFWL5');
+
+const googleTag = document.createElement('script');
+googleTag.async = true;
+googleTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZFR45RFWL5';
+document.head.appendChild(googleTag);
+
 const button = document.querySelector('.menu-button');
 const nav = document.querySelector('.site-nav');
 if (button && nav) {
@@ -32,6 +43,7 @@ if (location.protocol === 'file:' || isGitHubPagesPreview) {
     if (href === '/') link.setAttribute('href', location.protocol === 'file:' ? (isWorkshopPage ? '../index.html' : 'index.html') : (isWorkshopPage ? '../' : './'));
   });
 }
+
 document.querySelectorAll('a[target="_blank"]').forEach((link) => {
   link.removeAttribute('target');
   link.removeAttribute('rel');
