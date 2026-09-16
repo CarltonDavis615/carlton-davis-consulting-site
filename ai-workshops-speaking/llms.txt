@@ -1,6 +1,6 @@
 # Carlton Davis Consulting
 
-Carlton Davis Consulting helps business leaders and teams use AI in practical, responsible ways. The business provides AI workshops, team training, speaking, and strategy and advisory support. Based in Nashville, Tennessee, Carlton Davis serves organizations in Nashville and beyond.
+Carlton Davis is a Nashville AI trainer, speaker, and business advisor who helps small and midsize business owners, leaders, and teams use ChatGPT and Gemini. He helps organizations choose useful applications, improve everyday workflows, check AI results, and adopt AI responsibly.
 
 ## Primary pages
 
@@ -9,9 +9,9 @@ Carlton Davis Consulting helps business leaders and teams use AI in practical, r
 
 ## Services
 
-- AI Training & Workshops: Hands-on, practical sessions that help leaders and teams build confidence using AI in everyday work.
-- Speaking & Events: Keynotes, panels, and facilitated sessions for conferences, chambers, associations, boards, and leadership groups.
-- AI Strategy & Advisory: Practical support for identifying where AI fits, improving workflows, and building responsible habits around new tools.
+- AI Training & Workshops: Practical sessions that teach business owners, leaders, and teams to use ChatGPT and Gemini for communications, document summaries, brainstorming, and everyday business tasks.
+- Speaking & Events: Keynotes, panels, and facilitated sessions that explain what AI can do, where it falls short, and how it is changing everyday business work.
+- AI Strategy & Advisory: Guidance for identifying useful AI applications, assessing workflows, prioritizing opportunities to save time, choosing tools, and creating a clear adoption plan.
 
 ## Who it is for
 
