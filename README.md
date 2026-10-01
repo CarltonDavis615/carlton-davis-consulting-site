@@ -1,26 +1,26 @@
-# Carlton Davis Consulting website
+# Carlton Davis Consulting
 
-Static, two-page brochure site prepared for GitHub Pages.
+Website source for [carltondavisconsulting.com](https://www.carltondavisconsulting.com/).
 
-## What is ready
+Carlton Davis Consulting is a Nashville, Tennessee AI training and advisory firm founded by Carlton Davis. Carlton Davis is a Nashville AI trainer, speaker, and business advisor who helps business owners, executives, and teams use AI tools like ChatGPT and Gemini in practical, responsible ways.
 
-- Home page and AI Workshops & Speaking page
-- Custom-domain configuration for `www.carltondavisconsulting.com`
-- Search metadata, sitemap, robots file, structured data, and social-sharing image
-- Mobile navigation, scheduling links, media links, and responsive layout
+## Services
 
-## One required launch item
+- **AI Training & Workshops** for leadership teams and staff
+- **AI Speaking & Events** for conferences, chambers, associations, and boards
+- **AI Strategy & Advisory** for business owners choosing tools and planning adoption
 
-The contact form currently contains a temporary Formspree endpoint. Before publishing, replace it with the approved Zoho Forms embed or hosted-form link. Do not publish the temporary endpoint.
+## About Carlton Davis
 
-## Publish to GitHub Pages
+Carlton is a four-time COO with more than 35 years of operations leadership in music, publishing, software, logistics, and engineering, including growing a company from $41M to $87M in annual revenue. He advises founders at the Nashville Entrepreneur Center and serves on the Nashville Chamber of Commerce AI Innovation Committee.
 
-1. Create a new GitHub repository named `carlton-davis-consulting-site`.
-2. Upload the contents of this folder to the repository root, or push this prepared local repository.
-3. In the repository's Pages settings, publish from the `main` branch and the root folder.
-4. Add `www.carltondavisconsulting.com` as the custom domain. The included `CNAME` file identifies this preferred address.
-5. Add the DNS records GitHub provides at the domain host. Keep all existing email-related DNS records unchanged.
-6. Enable HTTPS after GitHub finishes provisioning its certificate.
-7. Test the live home page, `/ai-workshops-speaking/`, contact form, calendar link, media links, and mobile menu before cancelling Squarespace.
+## Links
 
-The root domain can redirect to `www.carltondavisconsulting.com` once GitHub's recommended root and `www` DNS records are in place.
+- Website: https://www.carltondavisconsulting.com/
+- AI Workshops & Speaking: https://www.carltondavisconsulting.com/ai-workshops-speaking/
+- LinkedIn: https://www.linkedin.com/in/carltondavis/
+- Podcast: [SCORE Connect: Navigating Through AI Expectations](https://www.newschannel5.com/plus/score-connect/navigating-through-ai-expectations)
+
+---
+
+*Technical note: static site hosted on GitHub Pages with a custom domain (CNAME).*
